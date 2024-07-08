@@ -1,0 +1,44 @@
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
+.bg-light-container {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  padding: 10px;
+  background-color: white;
+}
+.bg-dark-container {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-dark {
+  color: white;
+}
