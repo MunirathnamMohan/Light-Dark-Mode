@@ -2,7 +2,7 @@ import {Component} from 'react'
 import './index.css'
 
 class LightDarkMode extends Component {
-  state = {isClicked: true}
+  state = {isClicked: false}
 
   clicked = () => {
     const {isClicked} = this.state
